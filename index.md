@@ -17,6 +17,9 @@ features:
     - title: React
       details: ReactJS 에 대해 학습한 내용을 정리합니다
       link: /react
+    - title: PostgreSQL
+      details: SQL, PostgreSQL 에 대해 학습한 내용을 정리합니다
+      link: /docs/postgresql/index.md
     - title: Spring
       details: SpringBoot 에 대해 학습한 내용을 정리합니다
       link: /docs/spring/index.md
