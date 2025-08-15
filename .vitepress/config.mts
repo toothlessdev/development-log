@@ -1,28 +1,26 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Development Log",
-  description: "Toothless' Development Log",
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+    base: "/development-log/",
+    lang: "ko-KR",
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    title: "Development Log",
+    description: "대충 끄적이는 개발 기록",
+    themeConfig: {
+        // https://vitepress.dev/reference/default-theme-config
+        nav: [
+            { text: "Home", link: "/" },
+            { text: "Backend", link: "/docs/spring" },
+        ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
-})
+        sidebar: [
+            {
+                text: "Backend",
+                items: [{ text: "Spring Boot", link: "/docs/spring" }],
+            },
+        ],
+
+        socialLinks: [{ icon: "github", link: "https://github.com/toothlessdev" }],
+    },
+});

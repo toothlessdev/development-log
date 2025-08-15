@@ -3,23 +3,21 @@
 layout: home
 
 hero:
-  name: "Development Log"
-  text: "Toothless' Development Log"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+    name: "Development Log"
+    tagline: 대충 끄적이는 개발 기록
+    # actions:
+    #     - theme: brand
+    #       text: Markdown Examples
+    #       link: /markdown-examples
+    #     - theme: alt
+    #       text: API Examples
+    #       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    - title: React
+      details: ReactJS 에 대해 학습한 내용을 정리합니다
+      link: /react
+    - title: Spring
+      details: SpringBoot 에 대해 학습한 내용을 정리합니다
+      link: /docs/spring/index.md
 ---
-
